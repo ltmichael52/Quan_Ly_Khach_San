@@ -32,6 +32,7 @@ namespace Team_Project_4.Controllers
             }
             if (ModelState.IsValid)
             {
+                ModelState.AddModelError("Map", "Vui lòng nhập mã phòng.");
                 context.Add(phong_);
                 context.SaveChanges();
                 return RedirectToAction("RoomList");

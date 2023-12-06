@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Team_Project_4.Models
 {
@@ -11,7 +12,8 @@ namespace Team_Project_4.Models
             Phieuthues = new HashSet<Phieuthue>();
         }
 
-        public string Makh { get; set; } = null!;
+        [Required(ErrorMessage = ("Vui lòng nhập mã khách hàng"))]
+        public int? Makh { get; set; } 
         public string Tenkh { get; set; } = null!;
         public int Tuoi { get; set; }
         public string Tel { get; set; } = null!;

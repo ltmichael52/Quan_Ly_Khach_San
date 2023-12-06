@@ -12,7 +12,7 @@ namespace Team_Project_4.Models
 
         public string Mapt { get; set; } = null!;
         public DateTime Ngaylappt { get; set; }
-        public string Makh { get; set; } = null!;
+        public int Makh { get; set; }
         public int Map { get; set; }
 
         public virtual Khach MakhNavigation { get; set; } = null!;

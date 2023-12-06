@@ -11,8 +11,7 @@ namespace Team_Project_4.Models
             Phieuthues = new HashSet<Phieuthue>();
         }
 
-        [Required(ErrorMessage = "Vui lòng điền mã phòng")]
-        public int? Map { get; set; }
+        public int Map { get; set; }
         [Required(ErrorMessage = "Vui lòng điền tên phòng")]
         public string Tenphong { get; set; } = null!;
         public string Loai { get; set; } = null!;
