@@ -24,28 +24,41 @@ namespace Team_Project_4.Controllers
         public IActionResult Create(Phong phong_)
         {
             phong_.Tinhtrang = true;
+            var existingRoom = context.Phongs.FirstOrDefault(r=>r.Map==phong_.Map);
+            if (existingRoom != null)
+            {
+                ModelState.AddModelError("Map", "Mã phòng đã tồn tại.");
+                return View(phong_);
+            }
             if (ModelState.IsValid)
             {
                 context.Add(phong_);
                 context.SaveChanges();
                 return RedirectToAction("RoomList");
             }
-            return View();
+            return View(phong_);
         }
 
-        public IActionResult Update(string roomid)
+
+        public IActionResult Update(int roomid)
         {
 
-            Phong roomNeedUpdate = context.Phongs.FirstOrDefault(r => r.Map == int.Parse(roomid));
+            Phong roomNeedUpdate = context.Phongs.FirstOrDefault(r => r.Map == roomid);
             return View(roomNeedUpdate);
         }
 
         [HttpPost]
-        public IActionResult Update(Phong room_, string roomid)
+        public IActionResult Update(Phong room_, int roomid)
         {
+            var existingRoom = context.Phongs.FirstOrDefault(r => r.Map== roomid);
+            if (existingRoom != null)
+            {
+                ModelState.AddModelError("MaP", "Mã phòng đã tồn tại.");
+                return View(room_);
+            }
             if (ModelState.IsValid)
             {
-                Phong roomNeedUpdate = context.Phongs.FirstOrDefault(r => r.Map == int.Parse(roomid));
+                Phong roomNeedUpdate = context.Phongs.FirstOrDefault(r => r.Map == roomid);
                 roomNeedUpdate.Map = room_.Map;
                 roomNeedUpdate.Tenphong = room_.Tenphong;
                 roomNeedUpdate.Loai = room_.Loai;
@@ -56,7 +69,7 @@ namespace Team_Project_4.Controllers
 
                 return RedirectToAction("RoomList");
             }
-            return View();
+            return View(room_);
         }
 
 

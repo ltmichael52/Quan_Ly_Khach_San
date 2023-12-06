@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Team_Project_4.Models
 {
@@ -10,7 +11,9 @@ namespace Team_Project_4.Models
             Phieuthues = new HashSet<Phieuthue>();
         }
 
-        public int Map { get; set; }
+        [Required(ErrorMessage = "Vui lòng điền mã phòng")]
+        public int Map { get; set; } = null!;
+        [Required(ErrorMessage = "Vui lòng điền tên phòng")]
         public string Tenphong { get; set; } = null!;
         public string Loai { get; set; } = null!;
         public int Dongia { get; set; }
