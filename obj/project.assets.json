@@ -2020,11 +2020,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Uni\\WebPrac\\Loc_Update\\Team_Project_4\\Team_Project_4\\Team_Project_4\\Team_Project_4.csproj",
+      "projectUniqueName": "D:\\Uni\\WebPrac\\test\\HotelManagement\\Team_Project_4.csproj",
       "projectName": "Team_Project_4",
-      "projectPath": "D:\\Uni\\WebPrac\\Loc_Update\\Team_Project_4\\Team_Project_4\\Team_Project_4\\Team_Project_4.csproj",
+      "projectPath": "D:\\Uni\\WebPrac\\test\\HotelManagement\\Team_Project_4.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\Uni\\WebPrac\\Loc_Update\\Team_Project_4\\Team_Project_4\\Team_Project_4\\obj\\",
+      "outputPath": "D:\\Uni\\WebPrac\\test\\HotelManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

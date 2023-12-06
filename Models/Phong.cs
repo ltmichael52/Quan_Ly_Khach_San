@@ -12,7 +12,7 @@ namespace Team_Project_4.Models
         }
 
         [Required(ErrorMessage = "Vui lòng điền mã phòng")]
-        public int Map { get; set; } = null!;
+        public int? Map { get; set; }
         [Required(ErrorMessage = "Vui lòng điền tên phòng")]
         public string Tenphong { get; set; } = null!;
         public string Loai { get; set; } = null!;
