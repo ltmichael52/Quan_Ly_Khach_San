@@ -16,7 +16,7 @@
                 <!-- Room code input -->
                 <div class="form-group">
                     <label asp-for="Map" class="font-weight-bold">Mã phòng</label>
-                    <input type="text" asp-for="Map" class="form-control" />
+                    <input type="number" asp-for="Map" class="form-control" />
                     <span asp-validation-for="Map" class="text-danger"></span>
                 </div>
 
@@ -93,16 +93,16 @@
         // Set price based on selected room type
         switch (selectedType) {
             case "Vip":
-                priceField.value = 500000;
+                priceField.value = 700000;
                 break;
             case "BinhDan":
-                priceField.value = 700000;
+                priceField.value = 500000;
                 break;
             case "GiaDinh":
                 priceField.value = 1200000;
                 break;
             default:
-                priceField.value = 0;
+                priceField.value = 700000;
                 break;
         }
     });
