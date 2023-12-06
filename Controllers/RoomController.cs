@@ -68,5 +68,19 @@ namespace Team_Project_4.Controllers
             context.SaveChanges();
             return RedirectToAction("RoomList");
         }
+
+        
+        public IActionResult Search(string searchString)
+        {
+            var rooms = context.Phongs.ToList();
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                rooms = rooms.Where(r => r.Tenphong != null && r.Tenphong.ToLower().Contains(searchString.ToLower())).ToList();
+            }
+            TempData["searchWord"] = searchString;
+            return View("RoomList", rooms);
+        }
+
     }
 }
