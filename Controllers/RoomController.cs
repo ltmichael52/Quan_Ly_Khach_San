@@ -10,9 +10,33 @@ namespace Team_Project_4.Controllers
         {
             this.context = context_;
         }
-        public IActionResult RoomList()
+        public IActionResult RoomList(string sortOrder, string sortColumn)
         {
-            return View(context.Phongs.ToList());
+            ViewData["MaSortParam"] = sortColumn == "Map" ? (sortOrder == "asc" ? "desc" : "asc") : "asc";
+            ViewData["TenSortParam"] = sortColumn == "Tenphong" ? (sortOrder == "asc" ? "desc" : "asc") : "asc";
+            ViewData["TinhtrangSortParam"] = sortColumn == "Tinhtrang" ? (sortOrder == "asc" ? "desc" : "asc") : "asc";
+            ViewData["DongiaSortParam"] = sortColumn == "Dongia" ? (sortOrder == "asc" ? "desc" : "asc") : "asc";
+            var rooms = context.Phongs.AsQueryable();
+
+            switch (sortColumn)
+            {
+                case "Map":
+                    rooms = sortOrder == "desc" ? rooms.OrderByDescending(r => r.Map) : rooms.OrderBy(r => r.Map);
+                    break;
+                case "Tenphong":
+                    rooms = sortOrder == "desc" ? rooms.OrderByDescending(r => r.Tenphong) : rooms.OrderBy(r => r.Tenphong);
+                    break;
+                case "Tinhtrang":
+                    rooms = sortOrder == "desc" ? rooms.OrderByDescending(r => r.Tinhtrang) : rooms.OrderBy(r => r.Tinhtrang);
+                    break;
+                case "Dongia":
+                    rooms = sortOrder == "desc" ? rooms.OrderByDescending(r => r.Dongia) : rooms.OrderBy(r => r.Dongia);
+                    break;
+                default:
+                    rooms = rooms.OrderBy(r => r.Map);
+                    break;
+            }
+            return View(rooms.ToList());
         }
 
         public IActionResult Create()
