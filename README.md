@@ -1,0 +1,5 @@
+- Chương trình code theo những chức năng trong file YeuCauDoAn.pdf. Các bạn kéo xuống phần khách sạn sẽ thấy các màn hình yêu cầu cũng như thang chuẩn chấm điểm.
+- PPt là file thuyết trình của nhóm
+- Word là file báo cáo đồ án của nhóm
+- Tất cả tài liệu được đăng với mục đích cung cấp cho mọi tham khảo.
+- NGHIÊM CẤM BÁN LẠI SẢN PHẨM
