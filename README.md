@@ -1,0 +1,3 @@
+- Đây là phần mềm database first nên các bạn phải tạo database first.
+- Mỗi lần chúng mình sửa database thì lại scaffold lần mới hoặc scaffold -force
+- Database của chúng mình thì nhìn không hợp lý lắm là do trong quá trình code chúng mình sửa nhiều. 
