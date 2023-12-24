@@ -1,4 +1,4 @@
-|STT | Tên thành viên | Mã sinh viên | <style ="text-align:center"></style>Nhiệm vụ|
+|STT | Tên thành viên | Mã sinh viên |Nhiệm vụ|
 |:----------- | :----------- | :------------: | :------------ |
 |1 | Nguyễn Phúc Toàn | 81012202519|Chức năng đăng nhập, đăng xuất, cấp tài khoản <br> Chức năng báo cáo tỷ lệ sử dụng phòng |
 |2 | Lê Tấn Phát | 81012202485 |Chức năng quản lý & tra cứu, bootstrap phòng <br> Thay đổi quy định loại phòng & số lượng khách tối đa. <br> Tổng hợp code nhóm |
