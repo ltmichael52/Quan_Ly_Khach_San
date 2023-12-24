@@ -1,0 +1,61 @@
+﻿@model Team_Project_4.Models.Khachhang
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "_ManagerLayout";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Khachhang</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Tenkh)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Tenkh)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Tuoi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Tuoi)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Tel)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Tel)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Diachikh)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Diachikh)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cmndkh)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cmndkh)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MaloaikhachNavigation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MaloaikhachNavigation.Tenloaikhach)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MapNavigation.Map)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MapNavigation.Tenphong)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Makh">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,193 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TeamProject4
+build_property.RootNamespace = TeamProject4
+build_property.ProjectDir = d:\Uni\WebPrac\TeamProject4\TeamProject4\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = d:\Uni\WebPrac\TeamProject4\TeamProject4
+build_property._RazorSourceGeneratorDebug = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Bill/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Bill/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Bill/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Bill/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Bill/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbFxUZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Bill/Test2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbFxUZXN0Mi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Client/ClientList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENsaWVudExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Client/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Client/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Client/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Client/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/CreateCustomer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/LoaiPhong/CreateRoomType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVBob25nXENyZWF0ZVJvb21UeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/LoaiPhong/RoomType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVBob25nXFJvb21UeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/LoaiPhong/UpdateRoomType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVBob25nXFVwZGF0ZVJvb21UeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Manager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Nhanvien/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnZpZW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Nhanvien/NhanvienList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnZpZW5cTmhhbnZpZW5MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Nhanvien/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnZpZW5cVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Phuthu/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGh1dGh1XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Rent/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Rent/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Rent/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Rent/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Rent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Room/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Room/RoomList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Room/RoomUsageReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tVXNhZ2VSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Room/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/SaleReport/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVJlcG9ydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/SettingLoaiKhach/ClientType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ0xvYWlLaGFjaFxDbGllbnRUeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/SettingLoaiKhach/CreateClientType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ0xvYWlLaGFjaFxDcmVhdGVDbGllbnRUeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/SettingLoaiKhach/UpdateClientType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ0xvYWlLaGFjaFxVcGRhdGVDbGllbnRUeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Shared/_ManagerLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYW5hZ2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Shared/_StaffLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdGFmZkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Staff/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Uni/WebPrac/TeamProject4/TeamProject4/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-23s5ug7cv3
