@@ -7,7 +7,7 @@
 | 5   | Trần Tấn Lộc     | 81012202503  | - Chức năng quản lý & tra cứu, bootstrap khách hàng <br> - Quản lý file word <br> - Thay đổi quy định loại khách                      |
 
 - Phần trên là source code của nhóm.
-- Khi thực hiện đồ án thì bọn mình đang học kỳ 1 năm 2 của đại học và được thực hiện trong 2-3 tuần. Nên code có thể còn nhiều chỗ dư thừa. Mong các bạn thông cảm.
+- Khi thực hiện đồ án thì bọn mình đang học kỳ 1 năm 2 của đại học Quốc Tế Sài Gòn và được thực hiện trong 2-3 tuần. Nên code có thể còn nhiều chỗ dư thừa. Mong các bạn thông cảm.
 - Hướng code là chúng mình sẽ dùng Interface và Repository sau đó dăng ký serivce trong program. Và dùng Dependency Injection vô các controller. Từ đó có thể thuận tiện trong việc code logic.
 - Là logic của bên phòng sẽ có thể dùng được bên phiếu thuê vì logic nằm trong folder Repositories.
 - Tất cả tài liệu được đăng với mục đích cung cấp cho mọi tham khảo.
