@@ -11,6 +11,7 @@ namespace Team_Project_4.Models
         public DateTime Ngaylappt { get; set; }
         public int Makh { get; set; }
         public int Map { get; set; }
+        [Required(ErrorMessage = "Vui lòng nhập cccd")]
         public string Cccd { get; set; } = null!;
 
         public virtual Khachhang MakhNavigation { get; set; } = null!;

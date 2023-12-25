@@ -2,6 +2,7 @@
 using Team_Project_4.Models;
 using Team_Project_4.InterfacesRepositories;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 
 namespace Team_Project_4.Repositories
 {
@@ -23,6 +24,8 @@ namespace Team_Project_4.Repositories
 
         public async Task DeleteAsync(int Id)
         {
+            Debug.WriteLine("id nhan vien: " + Id);
+            await _tkrepo.DeleteByManv(Id);
             Nhanvien nhanvien = await _dbContext.Nhanviens.FindAsync(Id);
             _dbContext.Nhanviens.Remove(nhanvien);
             await _dbContext.SaveChangesAsync();
@@ -52,6 +55,7 @@ namespace Team_Project_4.Repositories
         }
         public async Task UpdateAsync(Nhanvien nhanvienUpdate, int nhanvienid)
         {
+            await _tkrepo.UpdateByNv(nhanvienid, nhanvienUpdate.Email);
             nhanvienUpdate.Manv = nhanvienid;
             _dbContext.Nhanviens.Update(nhanvienUpdate);
             var taikhoan = await _dbContext.Taikhoans.FirstOrDefaultAsync(t => t.Manv == nhanvienid);

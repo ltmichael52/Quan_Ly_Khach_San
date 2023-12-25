@@ -8,8 +8,7 @@ namespace Team_Project_4.ViewModels
         [DataType(DataType.Date)]
         public DateTime Ngaylaphd { get; set; }
 
-        [Required(ErrorMessage = "Vui Lòng Nhập CCCD Khách Hàng")]
-        public string CCCD { get; set; }
+        public string? CCCD { get; set; }
 
     }
 }

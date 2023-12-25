@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Team_Project_4.Models
 {
@@ -11,10 +12,14 @@ namespace Team_Project_4.Models
         }
 
         public int Makh { get; set; }
+        [Required(ErrorMessage="Vui lòng nhập tên")]
         public string Tenkh { get; set; } = null!;
-        public int Tuoi { get; set; }
+        [Required(ErrorMessage = "Vui lòng nhập tuổi")]
+        public int? Tuoi { get; set; }
+        [Required(ErrorMessage = "Vui lòng nhập sdt")]
         public string Tel { get; set; } = null!;
         public string? Diachikh { get; set; }
+        [Required(ErrorMessage = "Vui lòng nhập cccd")]
         public string Cmndkh { get; set; } = null!;
         public int Maloaikhach { get; set; }
         public int Map { get; set; }

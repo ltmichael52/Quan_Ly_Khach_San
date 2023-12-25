@@ -8,7 +8,10 @@ namespace Team_Project_4.InterfacesRepositories
     {
         Task<Taikhoan> GetByUsernameAndPasswordAsync(string tentknv, string mktk);
         Task AddAsync(Taikhoan taikhoan);
+        Task DeleteByManv(int manv);
+        Task UpdateByNv(int manv, string newEmail);
         Task CreateAccountForAllEmployee(IEnumerable<Nhanvien> employeesWithoutAccounts);
         // Các phương thức khác liên quan đến tài khoản có thể được thêm vào tùy theo yêu cầu.
+
     }
 }

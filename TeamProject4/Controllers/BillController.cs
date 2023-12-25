@@ -110,7 +110,10 @@ namespace Team_Project_4.Controllers
             ViewBag.CCCD = client.Cmndkh;
             return View();
         }
-
+        public async Task<IActionResult> Create()
+        {
+            return View();
+        }
 
         // POST: Bill/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.

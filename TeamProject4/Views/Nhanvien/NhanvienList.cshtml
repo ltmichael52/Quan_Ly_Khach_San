@@ -58,7 +58,7 @@
                 <td>@nhanvien.Diachi</td>
                 <td>
                     <a asp-action="Update" asp-route-nhanvienid="@nhanvien.Manv" class="btn btn-info btn-sm rounded">Cập nhật</a>
-                    <form asp-action="Delete" asp-route-nhanvienid="@nhanvien.Manv" class="d-inline">
+                    <form asp-action="Delete" method="post" asp-route-nhanvienid="@nhanvien.Manv" class="d-inline">
                         <button type="submit" class="btn btn-danger btn-sm rounded">Xóa</button>
                     </form>
                 </td>
