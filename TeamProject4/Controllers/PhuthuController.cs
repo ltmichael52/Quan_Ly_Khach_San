@@ -26,17 +26,6 @@ namespace Team_Project_4.Controllers
         // GET: Phuthu/Edit/5
         public async Task<IActionResult> Edit(int id)
         {
-            if (_context.Phuthus == null)
-            {
-                Phuthu phuthu1 = new Phuthu()
-                {
-                    Giatriphuthu = 30
-                };
-                _context.Phuthus.Add(phuthu1);
-                await _context.SaveChangesAsync();
-                id = 1;
-            }
-
             if (id == 0)
             {
                 return NotFound();
