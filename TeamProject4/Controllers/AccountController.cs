@@ -79,7 +79,7 @@ namespace Team_Project_4.Controllers
                 // Set user role as a claim
                 var claims = new List<Claim>
                 {
-                    new Claim("Role", check.Tentknv.Contains("@staff.com") ? "Staff" : "Manager")
+                    new Claim("Role", check.Tentknv.Contains("@siu.edu.vn") ? "Staff" : "Manager")
                 };
 
                 var userIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -88,7 +88,7 @@ namespace Team_Project_4.Controllers
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
 
                 // Check the role and redirect accordingly
-                if (check.Tentknv.Contains("@staff.com"))
+                if (check.Tentknv.Contains("@siu.edu.vn"))
                 {
                     // Nhân viên role
                     HttpContext.Session.SetString("accname", check.Tentknv);
@@ -96,7 +96,7 @@ namespace Team_Project_4.Controllers
                     ViewBag.accname = name;
                     return RedirectToAction("Index", "Staff");
                 }
-                else if (check.Tentknv.Contains("@manager.com"))
+                else if (check.Tentknv.Contains("@gmail.com"))
                 {
                     // Quản lí role
                     HttpContext.Session.SetString("accname", check.Tentknv);
