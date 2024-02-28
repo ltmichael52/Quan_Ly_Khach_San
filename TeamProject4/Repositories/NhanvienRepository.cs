@@ -73,7 +73,7 @@ namespace Team_Project_4.Repositories
 
         public async Task<Nhanvien> CheckEmailExist(string email,int nhanvienid)
         {
-            return await _dbContext.Nhanviens.FirstOrDefaultAsync(x => x.Email == email && x.Manv == nhanvienid);
+            return await _dbContext.Nhanviens.FirstOrDefaultAsync(x => x.Email == email && x.Manv != nhanvienid);
         }
 
         public async Task<Nhanvien> GetEmployeeByIdAsync(int id)
