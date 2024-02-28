@@ -14,5 +14,6 @@ namespace Team_Project_4.Repositories
         Task<IQueryable<Nhanvien>> GetEmployeeNoAccount();
         Task<Nhanvien> GetByEmailAsync(string email);
         Task<IQueryable<Nhanvien>> GetAllEmAsync();
+        Task<Nhanvien> CheckEmailExist(string email, int nhanvienid);
     }
 }
