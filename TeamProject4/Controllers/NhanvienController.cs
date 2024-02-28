@@ -109,20 +109,21 @@ namespace Team_Project_4.Controllers
         [HttpPost]
         public async Task<IActionResult> Update(Nhanvien nhanvien, string nhanvienid)
         {
-
+        
             if (!ModelState.IsValid)
             {
-
+        
                 return View(nhanvien);
             }
-            var existingNhanvien = await nhanvienRepo.GetByEmailAsync(nhanvien.Email);
-
+        	int id = int.Parse(nhanvienid);
+        	var existingNhanvien = await nhanvienRepo.CheckEmailExist(nhanvien.Email,id);
+        
             if (existingNhanvien != null)
             {
                 ModelState.AddModelError("Email", "Email này đã được sử dụng");
                 return View(nhanvien);
             }
-            int id = int.Parse(nhanvienid);
+            
             await nhanvienRepo.UpdateAsync(nhanvien,id);
             return RedirectToAction("nhanvienList");
         }
